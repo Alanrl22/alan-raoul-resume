@@ -32,16 +32,15 @@ p {
 	letter-spacing: .05rem;
 }
 .section-title {
-	font-size: 4rem;
-	font-weight: 300;
+	font-size: .5rem;
+	font-weight: 200;
 	color: black;
 	margin-bottom: 10px;
-	text-transform: uppercase;
 	letter-spacing: .2rem;
 	text-align: center;
 }
 .section-title span {
-	color:green;
+	color: #B9770E;
 }
 
 .resume {
@@ -72,8 +71,10 @@ p {
 	color: white;
 }
 .brand h1 span {
-	color:black;
+	color: #B9770E;
 }
+
+
 
 /* Header section */
 #header {
@@ -144,7 +145,7 @@ p {
 	letter-spacing: initial;
 }
 #header .nav-list ul li:hover a {
-	color: yellow;
+	color: #B9770E;
 }
 
 /* End Header section */
@@ -231,6 +232,7 @@ p {
 #projects .project-info h1 {
 	font-size: 4rem;
 	font-weight: 500;
+	color: #B9770E;
 }
 #projects .project-info h2 {
 	font-size: 1.8rem;
@@ -245,6 +247,7 @@ p {
 	height: 300px;
 	overflow: hidden;
 	position: relative;
+	
 }
 #projects .project-img:after {
 	content: '';
@@ -254,6 +257,7 @@ p {
 	height: 100%;
 	width: 100%;
 	opacity: .7;
+	background-image: linear-gradient(60deg, #29323c 0%,#485563 100%);
 }
 #projects .project-img img {
 	transition: .3s ease transform;
@@ -291,7 +295,7 @@ p {
 }
 @keyframes text_reveal_name {
 	100% {
-		color: yellow;
+		color: #B9770E;
 		font-weight: 500;
 	}
 }
